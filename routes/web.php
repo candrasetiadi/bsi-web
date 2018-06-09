@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/blog', ['uses' => 'BlogController@index'])->name('blog');
+Route::get('/', ['uses' => 'HomeController@index'])->name('home');
+Route::get('/blog-detail', ['uses' => 'BlogController@detail'])->name('detailBlog');
