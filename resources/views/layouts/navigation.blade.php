@@ -10,7 +10,7 @@
             <a class="navbar-brand" href="index.html">
                 <h1 id="logo">
                     <a href="{{ route('home') }}">
-                    <img src="img/logo-meghna.png" alt="Meghna" />
+                    <!-- <img src="img/logo-meghna.png" alt="Meghna" /> -->
                     </a>
                 </h1>
             </a>
