@@ -18,7 +18,9 @@ Route::get('/', function () {
 //ini cms
 Auth::routes();
 
-Route::get('/admincms',['uses' => 'AdminHomeController@index' ]);
+Route::get('/admincms',['uses' => 'AdminHomeController@index' ])->name('admincms');
+Route::resource('/management','ManagementController');
+
 
 
 //ini web
