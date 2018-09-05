@@ -10,7 +10,7 @@
     <!-- <script src="{{ asset('assets/js/main.js') }}"></script> -->
 	<script type="text/javascript" src="{{ asset('assets/js/datatables.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/datatables.js') }}"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.javascript"></script>
 	<!-- <script type="text/javascript" src="{{ asset('assets/js/bootstrap-datepicker.js') }}"></script> -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 

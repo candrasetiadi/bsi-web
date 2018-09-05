@@ -26,41 +26,19 @@
                         <tr>
                           <td>{{ $value->name }}</td>
                           <td>{{ $value->position }}</td>
+                          <td>{{ $value->biography }}</td>
                           <td>{{ $value->image }}</td>
                           <td>{{ $value->address }}</td>
                           <td>{{ $value->periode_start }}</td>
                           <td>{{ $value->periode_end }}</td>
-                          <td>{{ $value->status }}</td>
                           <td>
-                            <span class="badge badge-success">Active</span>
+                            <span class="badge badge-success">{{ $value->status }}</span>
                           </td>
                           <td>&nbsp;</td>
                         </tr>
                         @endforeach
                       </tbody>
                     </table>
-                    <nav>
-                      <ul class="pagination">
-                        <li class="page-item">
-                          <a class="page-link" href="#">Prev</a>
-                        </li>
-                        <li class="page-item active">
-                          <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">4</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">Next</a>
-                        </li>
-                      </ul>
-                    </nav>
                   </div>
                 </div>
               </div>
